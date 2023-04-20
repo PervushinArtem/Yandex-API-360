@@ -9,8 +9,8 @@ use \Bitrix\Main\Text\Encoding;
 class YandexAPI
 {
     const CORP_MAILS_TABLE = 'corp_mails';
-    const YANDEX_ORG_ID = '***';
-    const YANDEX_CLIENT_SECRET = '***';
+    private const YANDEX_ORG_ID = '***';
+    private const YANDEX_CLIENT_SECRET = '***';
     const YANDEX_LIMIT = 500;
     static string $lastError;
     const STOP_LIST_DEACTIVATION_MAILS = [];
