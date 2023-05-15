@@ -1,6 +1,6 @@
 <?php
 
-namespace YandexAPI;
+namespace Pervushin;
 
 use \Bitrix\Main\Loader;
 use \Bitrix\Highloadblock\HighloadBlockTable;
