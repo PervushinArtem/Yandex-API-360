@@ -8,12 +8,12 @@ use \Bitrix\Main\Text\Encoding;
 
 class YandexAPI
 {
-    private const CORP_MAILS_TABLE = 'corp_mails';
-    private const YANDEX_ORG_ID = YANDEX_ORG_ID;
-    private const YANDEX_CLIENT_SECRET = YANDEX_CLIENT_SECRET;
+    private const CORP_MAILS_TABLE = 'corp_mails_table';
+    private const YANDEX_ORG_ID = ''*****;
+    private const YANDEX_CLIENT_SECRET = '******';
     public const YANDEX_LIMIT = 500;
     public static $lastError;
-    public const STOP_LIST_DEACTIVATION_POSTS = STOP_LIST_DEACTIVATION_POSTS;
+    public const STOP_LIST_DEACTIVATION_POSTS = ['office', 'sale'];
     public const CORP_DOMEN = 'site.com';
     protected static $departaments = [];
     protected static $ListEmployee = [];
